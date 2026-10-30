@@ -1,0 +1,2 @@
+import { defineConfig, devices } from '@playwright/test';
+export default defineConfig({ testDir:'./tests/e2e',timeout:30000,use:{...devices['Desktop Chrome'],baseURL:'http://localhost:5173',locale:'vi-VN',deviceScaleFactor:1,viewport:{width:1586,height:992},launchOptions:process.env.PLAYWRIGHT_CHROMIUM_PATH?{executablePath:process.env.PLAYWRIGHT_CHROMIUM_PATH}:undefined,reducedMotion:'reduce'},webServer:{command:'npm run dev -- --port 5173',url:'http://localhost:5173',reuseExistingServer:true,timeout:30000} });

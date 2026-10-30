@@ -1,0 +1,33 @@
+:root {
+  --color-bg: #060f1c;
+  --color-panel: #0b1727;
+  --color-panel-raised: #102238;
+  --color-border: #18344d;
+  --color-text: #f3f7ff;
+  --color-muted: #a5b8d5;
+  --color-dim: #8198b9;
+  --color-primary: #16d5f3;
+  --color-primary-hover: #56e5ff;
+  --color-on-primary: #03131d;
+  --color-violet: #9d8aff;
+  --color-success: #20e6a1;
+  --color-danger: #ff6474;
+  --color-gold: #ffd165;
+  --font-ui: 'Be Vietnam Pro', Arial, sans-serif;
+  --sidebar-width: 246px;
+  --friends-width: 312px;
+  --topbar-height: 74px;
+  --radius-control: 8px;
+  --radius-card: 10px;
+  --shadow-cyan: 0 0 16px rgb(22 213 243 / 15%);
+  --shadow-violet: 0 0 16px rgb(157 138 255 / 15%);
+  --transition-ui: 180ms ease;
+}
+/* Import after obtaining actual font files. These tokens do not load the font. */
+body { margin: 0; background: var(--color-bg); color: var(--color-text); font-family: var(--font-ui); }
+* { box-sizing: border-box; }
+button, input, select { font: inherit; }
+:focus-visible { outline: 2px solid var(--color-primary); outline-offset: 3px; }
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after { animation-duration: .01ms !important; transition-duration: .01ms !important; }
+}

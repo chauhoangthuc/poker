@@ -1,0 +1,8 @@
+/* ImageGen decorative skins. All labels, focus and behavior remain native HTML. */
+.game-button.png-skin{border:0!important;background:transparent!important;box-shadow:none!important;padding:0;isolation:isolate;min-height:56px}
+.game-button.png-skin:after{display:none!important}
+.game-button.png-skin:before{content:'';position:absolute;inset:-3px -4px;z-index:-1;border:0!important;border-radius:0!important;clip-path:none!important;box-shadow:none!important;background-color:transparent!important;background-image:var(--skin-image)!important;background-size:100% 135%!important;background-position:center!important;background-repeat:no-repeat!important;pointer-events:none}
+.skin-play{--skin-image:url('/assets/buttons/play.png');color:#03131d!important}.skin-violet{--skin-image:url('/assets/buttons/violet.png');color:#d1c5ff!important}.skin-navy{--skin-image:url('/assets/buttons/navy.png');color:#d3f8ff!important}
+.game-button.skin-play .button-content{padding-left:25%!important;padding-right:8%!important;justify-content:center!important;width:100%;text-align:center;gap:0!important}.game-button.png-skin:hover:not(:disabled){filter:brightness(1.12);transform:translateY(-2px)}.game-button.png-skin:active:not(:disabled){transform:translateY(1px)}.game-button.png-skin:disabled{opacity:.65;filter:grayscale(.5)}.game-button.png-skin:focus-visible{outline:3px solid #e5fcff;outline-offset:5px}
+
+@media(max-width:600px){.arena-stage .chat-toggle{bottom:auto;top:67%;right:12px}.action-dock .game-button.png-skin{min-height:0}}

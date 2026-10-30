@@ -1,0 +1,16 @@
+/* Isolated ImageGen sprites: gameplay and seats remain independent DOM. */
+.arena-table{border:0;border-radius:0;padding:20px 22px 27px;background:none;box-shadow:none;isolation:isolate}
+.arena-table:before{inset:-3% -1% -14%;border-radius:0;background:url('/assets/table-render.png') center/100% 100% no-repeat;box-shadow:none;z-index:-1}
+.arena-table .felt{border:0;background:none;box-shadow:none}
+.table-mark{display:none}
+.card-backs i{background:url('/assets/cards/back-render-small.png') center/107% 105% no-repeat;border:1px solid #daeafa;border-radius:4px;box-shadow:0 3px 3px #0009;width:42px;height:66px;margin-left:-24px}
+.seat-0 .card-backs{gap:0;left:50%;transform:translateX(-50%);width:236px;justify-content:center;top:60px}
+.seat-0 .card-backs i{height:72px;width:48px;margin-left:-16px}
+.seat-0 .card-backs i:nth-child(1){transform:rotate(-17deg) translateY(8px)}
+.seat-0 .card-backs i:nth-child(2){transform:rotate(-10deg) translateY(3px)}
+.seat-0 .card-backs i:nth-child(3){transform:rotate(-4deg)}
+.seat-0 .card-backs i:nth-child(4){transform:rotate(4deg)}
+.seat-0 .card-backs i:nth-child(5){transform:rotate(10deg) translateY(3px)}
+.seat-0 .card-backs i:nth-child(6){transform:rotate(17deg) translateY(8px)}
+@media(max-width:600px){.card-backs i{width:26px;height:43px;margin-left:-16px}.seat-0 .card-backs{width:140px;top:34px}.seat-0 .card-backs i{width:30px;height:48px;margin-left:-12px}}
+

@@ -1,0 +1,53 @@
+[
+  {
+    "id": "room-01",
+    "name": "Vui là chính",
+    "hostId": "minh-anh",
+    "maxPlayers": 4,
+    "playerIds": [
+      "minh-anh",
+      "gia-bao"
+    ],
+    "status": "waiting",
+    "theme": "warm-club"
+  },
+  {
+    "id": "room-02",
+    "name": "Hội cú đêm",
+    "hostId": "duc-huy",
+    "maxPlayers": 4,
+    "playerIds": [
+      "duc-huy",
+      "thuy-tram",
+      "quang-minh"
+    ],
+    "status": "playing",
+    "theme": "night-street"
+  },
+  {
+    "id": "room-03",
+    "name": "Bàn cao thủ",
+    "hostId": "tuan-kiet",
+    "maxPlayers": 4,
+    "playerIds": [
+      "tuan-kiet",
+      "hoang-nam",
+      "bao-tran",
+      "anh-khoa"
+    ],
+    "status": "waiting",
+    "theme": "gold-club"
+  },
+  {
+    "id": "room-04",
+    "name": "Bạn bè cuối tuần",
+    "hostId": "ngoc-linh",
+    "maxPlayers": 4,
+    "playerIds": [
+      "ngoc-linh",
+      "hai-dang"
+    ],
+    "status": "waiting",
+    "theme": "garden"
+  }
+]
